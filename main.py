@@ -28,3 +28,4 @@ duree2.afficher()  # Affiche : 0h00m00s
 duree2.ajouter_secondes(3700)
 duree2.afficher()  # Affiche : 1h01m40s
 
+

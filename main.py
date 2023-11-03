@@ -23,7 +23,7 @@ class Durée:
         self.minutes = (total_secondes % 3600) // 60
         self.secondes = total_secondes % 60
 
-# Exemples d'utilisation
+
 duree1 = Durée(3, 70, -10)
 duree1.afficher()  # Affiche : 3h10m10s
 print(duree1.en_secondes())  # Affiche : 11410

@@ -20,8 +20,8 @@ class Durée:
 
 
 duree1 = Durée(3, 70, -10)
-duree1.afficher()  # Affiche : 3h10m10s
-print(duree1.en_secondes())  # Affiche : 11410
+duree1.afficher()  # Affiche 3h10m10s
+print(duree1.en_secondes())  # Affiche 11410
 
 duree2 = Durée()
 duree2.afficher()  # Affiche : 0h00m00s
